@@ -119,7 +119,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Mehran Mirzaei - [LinkedIn](https://www.linkedin.com/in/mehranmirzaei/)
 
-Project Link: [https://github.com/yoursirmirzaei/UPS-universal-product-scanner](https://github.com/sirmirzaei/UPS-universal-product-scanner)
+Project Link: [https://github.com/sirmirzaei/UPS-universal-product-scanner](https://github.com/sirmirzaei/UPS-universal-product-scanner)
 
 ## Acknowledgments
 
