@@ -1,7 +1,5 @@
 # Universal Product Scanner Chrome Extension
 
-![Universal Product Scanner Logo](images/icon128.png)
-
 A powerful Chrome extension that allows users to extract product information from any website using custom HTML class tags. Perfect for price comparison, inventory management, and market research.
 
 ## Features
