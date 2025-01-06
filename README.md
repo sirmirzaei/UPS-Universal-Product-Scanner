@@ -2,6 +2,9 @@
 
 A powerful Chrome extension that allows users to extract product information from any website using custom HTML class tags. Perfect for price comparison, inventory management, and market research.
 
+
+![main page](/screenshots/Main.png)
+
 ## Features
 
 - 🎯 **Universal Compatibility**: Works with any e-commerce website
@@ -46,6 +49,8 @@ Before using the extension, you need to identify the HTML class tags for product
 3. Click "Save Tags"
 4. Your tags are now saved for this specific website
 
+![Tags in it](/screenshots/WithTags.png)
+
 ### 3. Extracting Data
 
 1. Navigate to the product page
@@ -53,6 +58,11 @@ Before using the extension, you need to identify the HTML class tags for product
 3. Click "Extract Data"
 4. Review the extracted information
 5. Click "Download CSV" to export the data
+
+![Extract Data](/screenshots/ExtractedData.png)
+
+![CSV Output](/screenshots/CSVOutput.png)
+
 
 ## Troubleshooting Guide
 
