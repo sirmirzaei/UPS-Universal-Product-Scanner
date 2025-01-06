@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Universal Product Scanner</title>
+  <link rel="stylesheet" href="popup.css">
+  <style>
+    .author-credit {
+      font-size: 11px;
+      color: #666;
+      text-align: center;
+      margin-top: 15px;
+      padding-top: 10px;
+      border-top: 1px solid #eee;
+    }
+    .author-credit a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    .author-credit a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Universal Product Scanner</h1>
+    
+    <!-- Tag Management Section -->
+    <div class="tag-management">
+      <h2>Define Tags</h2>
+      <div class="tag-input">
+        <input type="text" id="item-tag" placeholder="Item Tag (e.g., part-info__code js-ga-product-line-number)">
+        <input type="text" id="price-tag" placeholder="Price Tag (e.g., pricing_price js-ga-product-price)">
+        <button id="save-tags">Save Tags</button>
+      </div>
+      
+      <div class="saved-tags">
+        <h3>Saved Tags for This Site</h3>
+        <div id="tags-list"></div>
+      </div>
+    </div>
+
+    <!-- Data Extraction Section -->
+    <div class="data-extraction">
+      <h2>Extracted Data</h2>
+      <div id="product-list">
+        <p>Click "Extract Data" to start</p>
+      </div>
+      <div class="actions">
+        <button id="extract-data">Extract Data</button>
+        <button id="download-csv">Download CSV</button>
+      </div>
+      <div id="status"></div>
+    </div>
+
+    <!-- Author Credit -->
+    <div class="author-credit">
+      Created by <a href="https://www.linkedin.com/in/mehranmirzaei/" target="_blank">Mehran Mirzaei</a>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

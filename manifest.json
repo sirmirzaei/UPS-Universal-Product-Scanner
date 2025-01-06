@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Universal Product Scanner",
+  "version": "1.0",
+  "description": "Universal product and price information extractor with customizable tags. This extension allows users to extract product information from any website by defining custom HTML class tags. Perfect for price comparison, inventory management, and market research.",
+  "author": "Mehran Mirzaei",
+  "homepage_url": "https://www.linkedin.com/in/mehranmirzaei/",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "short_name": "UPS"
+}
